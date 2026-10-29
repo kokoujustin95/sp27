@@ -1,0 +1,8 @@
+GS SIGMA — Mise à jour du 29/10/2026
+
+- Guide de main simplifié, inspiré du modèle fourni.
+- Identification par profils de paume, avec refus prudent lorsque deux profils sont trop proches.
+- Pointage arrivée au premier scan, départ au deuxième scan, et refus du troisième scan journalier avec motif rouge et tonalité grave.
+- Gestion des profils administrateur/utilisateur en plus des étudiants et enseignants.
+
+Limite importante : la caméra ordinaire et le descripteur d’image expérimental ne constituent pas une biométrie fiable ou certifiée. Une confusion reste possible; tester avant déploiement et ne pas utiliser seul pour une décision sensible.

@@ -1,0 +1,7 @@
+MISE À JOUR — BOUTON « DÉSACTIVER LA CAMÉRA »
+
+Un bouton rouge « Désactiver la caméra » a été ajouté dans la section Scanner / Pointer, sous le choix du mode de pointage.
+Il arrête la caméra du scan de paume et le scanner QR actif, puis affiche un message de confirmation. L'utilisateur peut relancer un scan normalement ensuite.
+
+Test effectué : vérification syntaxique des scripts JavaScript intégrés à index.html (26 blocs, aucune erreur de syntaxe).
+À tester dans le navigateur avec la caméra réelle et les deux modes QR / paume.

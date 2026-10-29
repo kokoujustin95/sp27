@@ -1,0 +1,23 @@
+MISE À JOUR — GS SIGMA / PAUME PAR CAMÉRA
+
+Modifications de cette version :
+- Enregistrement et remplacement des paumes depuis Paramètres, réservé à l'administrateur.
+- Bouton spécifique permettant à l'administrateur connecté d'enregistrer/remplacer sa propre paume.
+- Fenêtre caméra placée en haut de la section d'enregistrement, avant la liste des personnes.
+- Contour animé de paume pour guider la capture et motif visuel d'état enregistré/non enregistré.
+- Paramètres de couleur du contour et tonalités distinctes configurables pour l'arrivée et le départ.
+- Dans Scanner / Pointer, choix préalable entre QR code et paume; seule la caméra du mode sélectionné s'affiche.
+- En mode paume, comparaison répétée automatique des images capturées avec les descripteurs enregistrés; lorsqu'une correspondance visuelle est retenue pour un étudiant/enseignant, le système tente d'enregistrer le pointage via la logique existante.
+
+IMPORTANT — LIMITE BIOMÉTRIQUE
+La comparaison reste expérimentale : le descripteur visuel global de l'image n'est pas une empreinte palmaire biométrique certifiée et peut produire des faux positifs/négatifs. Le contour est un guide visuel, pas une détection de la main. Ne pas utiliser seul pour sécuriser les comptes ou prendre des décisions disciplinaires. Pour une identification fiable, intégrer un modèle de détection de paume/points clés, détection du vivant, seuils validés et protections serveur des données biométriques.
+
+La caméra nécessite HTTPS ou localhost et l'autorisation du navigateur. Tester avec une sauvegarde de la base avant déploiement.
+
+
+CORRECTIF DU 29/10/2026 — CONTOUR ET RECONNAISSANCE
+- Remplacement de l’overlay HUD par un guide de main fixe visible dès l’ouverture de la caméra.
+- Ajout d’une recherche par nom dans la liste des personnes à enregistrer.
+- L’enregistrement collecte plusieurs échantillons visuels successifs lorsque les cinq doigts sont détectés.
+- La comparaison accepte les anciens descripteurs pour ne pas invalider immédiatement les enregistrements déjà présents. Les nouveaux enregistrements utilisent un descripteur de contraste et de contours plus compact.
+- Cette méthode par image caméra reste expérimentale et n’est pas une reconnaissance biométrique certifiée ; tester avec plusieurs mains et conditions d’éclairage avant tout déploiement.

@@ -1,0 +1,9 @@
+MISE À JOUR — MODES DE POINTAGE ATTRIBUÉS PAR L’ADMINISTRATEUR
+
+- Le contour de main reste plus étroit et plus haut dans les écrans d’enregistrement et de scan.
+- Dans Paramètres > Enregistrement de la paume, l’administrateur dispose d’une colonne « Mode autorisé » pour chaque compte ou personne.
+- Le mode est enregistré dans les paramètres de la base : QR code (par défaut) ou scan de la main.
+- Une personne attribuée au scan de la main ne peut pas pointer par QR code.
+- Le scan de la main ne compare que les profils dont le mode attribué est « Scan de la main ».
+- Les changements sont enregistrés automatiquement. La modification des droits reste réservée à l’administrateur.
+- La comparaison d’images de paume reste expérimentale et ne constitue pas une biométrie certifiée.

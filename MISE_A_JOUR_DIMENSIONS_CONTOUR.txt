@@ -1,0 +1,7 @@
+MISE À JOUR — DIMENSIONS DU CONTOUR DE MAIN
+
+- Le contour de main est plus étroit (largeur visuelle réduite à 66 % de la zone caméra).
+- Le contour est étiré en hauteur pour mieux guider les doigts et la paume.
+- Le même ajustement est appliqué à l'enregistrement dans les paramètres et au scanner/pointer.
+- La hauteur maximale d'affichage de la vidéo est passée à 440 px.
+- Aucun changement n'a été apporté à la logique d'enregistrement, d'identification ou de pointage.
